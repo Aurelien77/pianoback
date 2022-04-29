@@ -1,0 +1,31 @@
+{
+  "development": {     
+    "username": "ncsi5qbzqrp0d62h",
+    "password": "f1x2hnkw2qy1fwnq",
+    "database": "lqrnimxf816vkdcw",
+    "host": "ilzyz0heng1bygi8.chr7pe7iynqr.eu-west-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+
+  "pool": {
+    "max": "dbConfig.pool.max",
+    "min": "dbConfig.pool.min",
+    "acquire": "dbConfig.pool.acquire",
+    "idle": "dbConfig.pool.idle"
+  }
+}
+  
